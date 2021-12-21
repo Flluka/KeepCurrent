@@ -104,6 +104,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  background-color: #f1f1f1;
 }
 
 div.content {
@@ -118,6 +119,58 @@ div.content {
   width: 100%;
 }
 
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
+}
+
+
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* Submit button style */
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* hover style on submit button*/
+input[type=submit]:hover {
+  background-color: #00ff00;
+}
+
+/* color for the form*/
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: aleo;
 }
